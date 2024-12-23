@@ -109,8 +109,8 @@
       flakySnowflake.className = 'flaky-snowflake';
       flakySnowflake.textContent = '❄'; // Snowflake symbol
       flakySnowflake.style.left = `${Math.random() * 100}vw`;
-      flakySnowflake.style.animationDuration = `${Math.random() * 6 + 3}s`; // Random duration
-      flakySnowflake.style.animationDelay = `${Math.random()}s`; // Random delay
+      flakySnowflake.style.animationDuration = `${Math.random() * 6 + 3}s`; 
+      flakySnowflake.style.animationDelay = `${Math.random()}s`; 
 
       container.appendChild(flakySnowflake);
     }
@@ -120,9 +120,9 @@
       const fallingName = document.createElement('div');
       fallingName.textContent = name;
       fallingName.className = 'falling-names';
-      fallingName.style.left = `${Math.random() * 100}vw`; // Random horizontal position
-      fallingName.style.animationDuration = `${Math.random() * 15 + 5}s`; // Random duration
-      fallingName.style.animationDelay = `${Math.random()}s`; // Random delay
+      fallingName.style.left = `${Math.random() * 100}vw`; 
+      fallingName.style.animationDuration = `${Math.random() * 15 + 5}s`; 
+      fallingName.style.animationDelay = `${Math.random()}s`; 
 
       container.appendChild(fallingName);
     });
